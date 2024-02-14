@@ -22,7 +22,6 @@
         <a class="navbar-brand" href="/index.html"
           >Bedre Hverdag | Nygren Massasje</a
         >
-
         <button
           class="navbar-toggler"
           type="button"
@@ -46,7 +45,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 aria-current="page"
                 href="/caroline/index.html"
                 >Caroline</a
@@ -56,8 +55,11 @@
               <a class="nav-link" aria-current="page" href="#">Bestill Time</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/contact/index.html"
-                >Kontakt</a
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contact/index.html"
+                >Kontakt Meg</a
               >
             </li>
           </ul>
@@ -75,54 +77,70 @@
 
     <main>
       <div class="container text-center mt-3">
-        <h1>Caroline Nygren | BedreHverdag</h1>
+        <h1>Kontakt meg her</h1>
       </div>
 
-      <hr class="hr_line mb-5" />
-      <h3 class="text-center">Mine Behandlinger:</h3>
+      <hr class="hr_line" />
 
-      <div class="container_caroline">
-        <div class="caroline_bilde">
-          <img
-            src="/images/caroline.jpg"
-            alt="profilbilde av Caroline"
-            class="caroline_profil"
-          />
+      <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleName">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleName"
+                  placeholder="firstname and surname"
+                />
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="mt-3">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Timebestilling</option>
+              <option>Spørsmål</option>
+              <option>Bedriftsmassasje</option>
+              <option>Annet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="8"
+            ></textarea>
+          </div>
+        </form>
+        <div class="text-center">
+          <button class="btn btn-warning btn-custom">Send</button>
         </div>
+      </div>
 
-        <div class="om_caroline text-center mt-5">
-          <h5>
-            Caroline bringer en intuitiv tilnærming til massasjeteknikkene,
-            dyktig til å finne og løse opp i dine muskulære knuter. Med over
-            fire års erfaring innen massasje, og fullført utdannelse i 2018, har
-            hun etablert seg som en pålitelig massasjeterapeut. Kjent for sin
-            behagelige og rolige tilnærming, kombinert med solid faglig
-            kompetanse, legger Caroline vekt på å skape en skreddersydd
-            opplevelse tilpasset dine unike behov og dagsform.
-          </h5>
-          <p>
-            "Jeg har en genuin kjærlighet for massasjearbeidet, og jeg tror
-            dette gjenspeiles i de gode tilbakemeldingene jeg mottar. Det er
-            utrolig givende å se hvordan massasje kan ha så positiv innvirkning
-            på kroppen vår. Fra å styrke immunforsvaret og lindre kramper, til å
-            forbedre den mentale velværen og til og med erstatte behovet for
-            smertestillende midler i visse tilfeller, massasjen har en unik evne
-            til å gjenopprette kontakten med kroppen vår. Jeg føler meg utrolig
-            takknemlig for å få lov til å bidra til andres velvære på denne
-            måten."
-          </p>
-          <p>
-            Med en atmosfære av avslappende musikk, dempet belysning og
-            varmetepper, kombinert med Carols jevne og trygge hender, får du en
-            helhetlig og avslappende opplevelse uansett hvilken type massasje du
-            velger.
-          </p>
+      <section>
+        <hr class="hr_line mt-3 mb-5" />
+        <h3 class="text-center mb-5">Du finner meg på Olsrød Park</h3>
+        <div class="d-flex justify-content-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2038.4411616226962!2d10.449213077425494!3d59.27548507458825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b0d325be2c2d%3A0x8a4d9d976d04c068!2sRema%201000%20Olsr%C3%B8d%20Park!5e0!3m2!1sno!2sno!4v1707939950388!5m2!1sno!2sno"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-      </div>
-      <div class="container_buttons">
-        <button class="btn btn-secondary btn-custom">kontakt</button>
-        <button class="btn btn-warning btn-custom">bestill time</button>
-      </div>
+      </section>
     </main>
 
     <footer class="main-footer bg-dark py-5 mt-5 shadow">
